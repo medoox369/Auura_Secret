@@ -13,15 +13,24 @@
 *::after {
   box-sizing: border-box;
 }
+
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* تعطيل التمرير الأفقي */
 }
+img, div, section {
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
 .container {
   max-width: 100%; /* تأكد أن العناصر لا تتجاوز العرض */
   overflow: hidden; /* منع تجاوز المحتوى */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
 }
 @media (max-width: 768px) {
   .price-grid {
@@ -459,6 +468,7 @@ nav {
   z-index: 1000;
   transition: all 0.3s ease-in-out;
   margin: 0;
+  padding: 2px;
   display: flex;
   width: 100%;
   align-items: center;
@@ -501,6 +511,8 @@ nav {
 /* تنسيق روابط القائمة */
 .nav-links {
   display: flex;
+  justify-content: center; /* لضمان التوسيط */
+  align-items: center;
   gap: 2rem;
 }
 
@@ -1191,3 +1203,7 @@ p {
     max-width: none;
   }
 }
+.problematic-div {
+  overflow-x: hidden;
+}
+
