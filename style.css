@@ -455,10 +455,21 @@ nav {
   backdrop-filter: blur(10px); /* تأثير زجاجي */
   padding: 15px 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  position: sticky;
   top: 0;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
+  margin: 0;
+  padding: 2px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  float: none;
+  clear: both;
+  box-sizing: border-box;
+  max-width: 100%;
+
 }
 
 /* تنسيق محتوى التنقل */
@@ -501,6 +512,9 @@ nav {
   font-weight: 600;
   text-transform: uppercase;
   transition: color 0.3s ease-in-out, transform 0.2s;
+  padding: 10px 20px;
+  margin: 0;
+  
 }
 
 .nav-links a:hover {
