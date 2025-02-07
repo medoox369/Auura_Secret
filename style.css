@@ -13,6 +13,29 @@
 *::after {
   box-sizing: border-box;
 }
+* {
+  max-width: 100vw; /* عرض أقصى هو عرض الشاشة */
+  box-sizing: border-box;
+}
+.some-element {
+  position: relative; /* بدلاً من absolute */
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* منع التمرير الأفقي */
+  margin: 0;
+  padding: 0;
+}
+
 
 
 body {
