@@ -1061,6 +1061,13 @@ p {
   transform: scale(1.02);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
+.your-section-class {
+  width: 100%;
+}
+.your-section-class {
+  margin-right: 0;
+  padding-right: 0;
+}
 
 /* تحسين العنوان */
 .about-section h2 {
