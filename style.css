@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 * {
-  max-width: 100vw; /* عرض أقصى هو عرض الشاشة */
+  max-width: 100%; /* عرض أقصى هو عرض الشاشة */
   box-sizing: border-box;
 }
 .some-element {
@@ -29,13 +29,11 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
-
-
-
 
 body {
   margin: 0;
@@ -45,7 +43,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-img, div, section {
+img,
+div,
+section {
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -74,27 +74,22 @@ img, div, section {
 }
 @media screen and (max-width: 768px) {
   .container {
-      width: 100%;
-      padding: 10px;
-      text-align: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
   }
 }
-
-
 
 .item {
   flex: 1;
   max-width: 100%;
 }
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 body {
   background: var(--background);
@@ -110,7 +105,7 @@ body {
 @media (max-width: 768px) {
   /* تصميم المحتوى الرئيسي */
   main {
-    max-width: 1500px;
+    max-width: 99%;
     margin: 0 auto;
     padding: var(--padding);
   }
@@ -337,7 +332,7 @@ body[lang="de"] {
   justify-content: space-between;
   gap: 20px;
   width: 100%; /* عرض الصف مساوي للخلفية */
-  max-width: 1000px;
+  max-width: 98%;
   margin: 0 auto; /* توسيط الصف */
 }
 
@@ -541,7 +536,6 @@ nav {
   transition: color 0.3s ease-in-out, transform 0.2s;
   padding: 10px 20px;
   margin: 0;
-  
 }
 
 .nav-links a:hover {
@@ -623,7 +617,7 @@ nav {
 
 /* General Section Styles */
 .cities-section {
-  max-width: 1500px;
+  max-width: 98%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1204,9 +1198,6 @@ p {
   resize: vertical;
 }
 
-
-
-
 @media (max-width: 768px) {
   .cards-row {
     flex-direction: column;
@@ -1225,4 +1216,3 @@ p {
 .problematic-div {
   overflow-x: hidden;
 }
-
