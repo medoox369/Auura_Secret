@@ -617,7 +617,6 @@ nav {
   width: 30%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  margin: 0 auto;
 }
 .cityy h3 {
   font-size: 1.6rem;
@@ -627,29 +626,6 @@ nav {
   background: linear-gradient(135deg, #333, #555);
   color: #fff;
   margin: 0;
-}
-
-@media (max-width: 768px) {
-  .cityy {
-    width: 90%; /* تقليل العرض ليكون أكثر توافقًا */
-  }
-}
-
-@media (max-width: 480px) {
-  .cityy {
-    width: 100%; /* لجعل العنصر يمتد بكامل عرض الشاشة */
-  }
-}
-@media (max-width: 768px) {
-  .city {
-    width: 90%; /* تقليل العرض ليكون أكثر توافقًا */
-  }
-}
-
-@media (max-width: 480px) {
-  .city {
-    width: 100%; /* لجعل العنصر يمتد بكامل عرض الشاشة */
-  }
 }
 
 /* General Section Styles */
@@ -671,8 +647,6 @@ nav {
   width: 30%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  margin: 0 auto;
-
 }
 
 .city:hover {
