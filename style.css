@@ -627,6 +627,17 @@ nav {
   color: #fff;
   margin: 0;
 }
+@media (max-width: 768px) {
+  .cityy {
+    width: 90%; /* تقليل العرض ليكون أكثر توافقًا */
+  }
+}
+
+@media (max-width: 480px) {
+  .cityy {
+    width: 100%; /* لجعل العنصر يمتد بكامل عرض الشاشة */
+  }
+}
 
 /* General Section Styles */
 .cities-section {
