@@ -31,10 +31,9 @@
 
 html, body {
   width: 100%;
-  overflow-x: hidden; /* منع التمرير الأفقي */
-  margin: 0;
-  padding: 0;
+  overflow-x: hidden;
 }
+
 
 
 
@@ -52,18 +51,16 @@ img, div, section {
 }
 
 .container {
-  max-width: 100%; /* تأكد أن العناصر لا تتجاوز العرض */
-  overflow: hidden; /* منع تجاوز المحتوى */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
+  max-width: 100%;
+  width: 90vw; /* اجعل العرض 90% من الشاشة */
+  margin: 0 auto; /* توسيط المحتوى */
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  width: 90vw; /* يمكنك ضبطها حسب الحاجة */
-  place-items: center;
-
+  text-align: center;
+  float: none;
+  clear: both;
 }
+
 @media (max-width: 768px) {
   .price-grid {
     grid-template-columns: 1fr; /* جعل الأعمدة تتناسب مع الشاشات الصغيرة */
@@ -75,9 +72,14 @@ img, div, section {
     height: auto;
   }
 }
-html, body {
-  overflow-x: hidden; /* تعطيل التمرير الأفقي */
+@media screen and (max-width: 768px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+  }
 }
+
 
 
 .item {
@@ -92,9 +94,7 @@ html, body {
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 body {
   background: var(--background);
@@ -1204,12 +1204,7 @@ p {
   resize: vertical;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-      width: 95%; /* جعل التصميم يتكيف مع الشاشات الصغيرة */
-      padding: 10px;
-  }
-}
+
 
 
 @media (max-width: 768px) {
