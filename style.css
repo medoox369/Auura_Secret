@@ -617,6 +617,7 @@ nav {
   width: 30%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 0 auto;
 }
 .cityy h3 {
   font-size: 1.6rem;
