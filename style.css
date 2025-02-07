@@ -105,7 +105,7 @@ body {
 @media (max-width: 768px) {
   /* تصميم المحتوى الرئيسي */
   main {
-    max-width: 1500px;
+    max-width: 100%;
     margin: 0 auto;
     padding: var(--padding);
   }
