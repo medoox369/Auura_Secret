@@ -1039,6 +1039,41 @@ p {
   transform: translateY(0);
   animation: fadeInUp 1s forwards;
 }
+/* تصميم قسم "عن أيورا سيكريت" */
+.about-section {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5); /* شفافية خفيفة */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* تأثير عند تحريك الماوس فوق القسم */
+.about-section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* تحسين العنوان */
+.about-section h2 {
+  color: var(--accent);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 1s forwards;
+}
 
 /* تحسين الفقرة */
 .about-section p {
@@ -1091,6 +1126,9 @@ p {
 /* منع الفراغ الجانبي */
 body {
   overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
