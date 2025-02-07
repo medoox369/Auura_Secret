@@ -490,17 +490,6 @@ nav {
   top: 0;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
-  margin: 0;
-  padding: 2px;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  position: static;
-  float: none;
-  clear: both;
-  box-sizing: border-box;
-  max-width: 100%;
 
 }
 
